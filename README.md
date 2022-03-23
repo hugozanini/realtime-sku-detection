@@ -39,7 +39,7 @@ src="https://raw.githubusercontent.com/hugozanini/realtime-sku-detection/main/gi
 
 ## Acknowledgment
 
-This code was developed under the financial assistance of the [Google Developers Group](https://developers.google.com/community/gdg),  that provided all the computational resources for training the models.
+This code was developed under the financial assistance of the [Google Developers Group](https://developers.google.com/community/gdg),  which provided all the computational resources for training the models.
 
 
 
