@@ -1,6 +1,6 @@
 # Real-time & Offline SKU detection in the browser using TensorFlow.js
 
-This repository is part of the tutorial  [Realtime SKU detection in the browser using TensorFlow.js](test.com).  **For a better understanding of how to create a custom object detection model, refer to the post**.
+This repository is part of the tutorial  [Realtime SKU detection in the browser using TensorFlow.js](https://blog.tensorflow.org/2022/05/real-time-sku-detection-in-browser.html?m=1).  **For a better understanding of how to create a custom object detection model, refer to the post**.
 
 
 The main branch contains the code used to train the network and the model configuration file. To download the the [SKU 110K dataset](https://github.com/eg4000/SKU110K_CVPR19) in the tf.record format, [click here](https://mega.nz/file/xnBWwBbK#h38Etgjt59z-gdGnK0Gbt3P4D_iM5_PdiWlBLbHiLrc).
