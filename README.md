@@ -21,6 +21,9 @@ src="https://raw.githubusercontent.com/hugozanini/realtime-sku-detection/main/gi
 </body
 <br>
 
+ 
+ See more examples [here](https://www.youtube.com/watch?v=Hk26F6etrpY&ab_channel=HugoZanini).
+ 
 ---
 ### Training metrics
 
