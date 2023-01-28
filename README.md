@@ -1,58 +1,40 @@
-# Real-time & Offline SKU detection in the browser using TensorFlow.js
 
-This repository is part of the tutorial  [Realtime SKU detection in the browser using TensorFlow.js](https://blog.tensorflow.org/2022/05/real-time-sku-detection-in-browser.html?m=1).  **For a better understanding of how to create a custom object detection model, refer to the post**.
+# Real-time & Offline Object Detection using YoloV7 and TF.JS
 
 
-The main branch contains the code used to train the network and the model configuration file. To download the the [SKU 110K dataset](https://github.com/eg4000/SKU110K_CVPR19) in the tf.record format, [click here](https://mega.nz/file/xnBWwBbK#h38Etgjt59z-gdGnK0Gbt3P4D_iM5_PdiWlBLbHiLrc).
-
-Following the [tutorial](test.com),  you are going to develop a solution to perform realt-time and offline inferences thourgh the camera of any device that opens a web broswer.
+This repository is an implementation of Yolov7 using Tensorflow.js. The code runs directly on the browser and the detector was trained on the MS COCO dataset to recognizes up to [80 different classes](https://github.com/hugozanini/yolov7-tfjs/blob/master/src/utils/labels.json).
 
 <body> 
 <img  alt="Qries"
-src="https://github.com/hugozanini/realtime-sku-detection/blob/main/git-media/demo.gif?raw=true"  width="275" height="600">
+src="https://github.com/hugozanini/yolov7-tfjs/blob/master/git-media/yolov7-tfjs-optimized.gif?raw=true"  width="400">
 </body
 
 
 
-<body> <a  href="https://codesandbox.io/s/sku-detection-mobilenet-wtvbj?file=/src/index.js">
+<body> <a href="https://codesandbox.io/p/github/hugozanini/yolov7-tfjs/master?file=%2FREADME.md">
 <img  alt="Qries"
-src="https://raw.githubusercontent.com/hugozanini/realtime-sku-detection/main/git-media/sandbox.png"  width="275" height="145">
+src="https://raw.githubusercontent.com/hugozanini/realtime-sku-detection/main/git-media/sandbox.png"  height="100">
 </a>
 </body
 <br>
 
  
- See more examples [here](https://www.youtube.com/watch?v=Hk26F6etrpY&ab_channel=HugoZanini).
- 
----
-### Training metrics
-
-The training process was monitored through Tensorboard and took around 22h to finish on a 60GB machine using an NVIDIA Tesla P4. The final losses can be checked below:
-
-
-<body> <a  href="https://codesandbox.io/s/sku-detection-mobilenet-wtvbj?file=/src/index.js">
-<img  alt="Qries"
-src="https://raw.githubusercontent.com/hugozanini/realtime-sku-detection/main/git-media/total_loss.png"  width="700">
-</a>
-</body
-<br>
-
-
-
+ See more examples [here](https://www.youtube.com/watch?v=pBWIg80xlXE).
+<br> 
 
 ## Acknowledgment
 
-This code was developed under the financial assistance of the [Google Developers Group](https://developers.google.com/community/gdg),  which provided all the computational resources for training the models.
 
 
+<img align="left" width="200" height="183" src="https://raw.githubusercontent.com/hugozanini/yolov7-tfjs/organizing-repo/git-media/Experts_Stickers_05.gif">This code was developed under the financial assistance of the [Google Developers Group](https://developers.google.com/community/gdg),  which provided all the computational resources for training and converting the models.
 
-## Citation
+<br> 
+<br>
+<br> 
 
-```
-@inproceedings{goldman2019dense,
- author    = {Eran Goldman and Roei Herzig and Aviv Eisenschtat and Jacob Goldberger and Tal Hassner},
- title     = {Precise Detection in Densely Packed Scenes},
- booktitle = {Proc. Conf. Comput. Vision Pattern Recognition (CVPR)},
- year      = {2019}
-}
-```
+
+## References
+
+[Official YOLOv7](https://github.com/WongKinYiu/yolov7)
+
+[Object Detection using YOLOv5 and Tensorflow.js](https://github.com/Hyuto/yolov5-tfjs)
